@@ -1,0 +1,97 @@
+body
+{
+	background: url(images/Background.jpg);
+	height: 100%;
+	font-size: 13px;
+}
+html{
+	height: 100%;
+}
+a{
+	color: #909090;
+	text-decoration: none;	
+}
+a:hover {
+	text-decoration: underline;
+	color: #0c00bb;
+	}
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.home{
+	width: 85%;
+	height: 500px;
+	background: rgb(26, 25, 25);
+}
+.profile-photo{
+	position: relative;
+	background: url(images/Profile-Photo.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 500px;
+	float: left;
+}
+.description{
+	position: absolute;
+	bottom: 0;
+	width: 100%;	
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(110,111,67,1) 100%);
+}
+.cdescription{
+	text-align: center;
+	color: #0c10fa;
+}
+.content{
+	width: calc(100% - 300px);
+	position: relative;
+	float: left;
+}
+.menu{
+	color: #0c10fa;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+}ul>li{
+	display: inline-block;
+	line-height: 2.5;
+	padding: 3px 15px;
+	text-transform: uppercase;
+}
+li:hover{
+	background: #03a9f4;
+}
+li:hover>a{
+	color: rgb(255, 255, 255);
+}
+.box{
+	position: relative; 
+	margin:0px 15px 15px 15px;
+	padding:100px 300px 350px 10px;
+	background: #a0a0a0;
+	border-radius: 10px;
+	border-left: 10px solid;
+	overflow:auto
+	
+}
+.about>h1{
+	color: #0c10fa;
+	font-style: italic;
+	tab-size: 500px;
+
+}
+.about{
+	position: absolute;
+	color: #000000;
+	padding-top: 10px;
+	font-size: 150%;
+	font-style: normal;
+	
+	display: inline-block;
+	overflow:auto
+}
